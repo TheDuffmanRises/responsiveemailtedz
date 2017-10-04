@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Responsive Email Template</title>
+    <style>
+     
+	 /* Resets: see reset.css for details */
+        .ReadMsgBody { width: 100%; background-color: #ebebeb;}
+        .ExternalClass {width: 100%; background-color: #ebebeb;}
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+        body {margin:0; padding:0;}
+		body {background-color: #f6f8f1;}
+        table {border-spacing:0;}
+        table td {border-collapse:collapse;}
+        .yshortcuts a {border-bottom: none !important;}
+	 
+  		a, a:link, a:visited { color:#333333; }
+	
+		#templatePreheader{
+			background-color:#F4F4F4;
+			border-bottom:1px solid #CCCCCC;
+			}
+	
+		.preheaderContent{
+			color:#808080;
+			font-family:Helvetica;
+			font-size:10px;
+			line-height:125%;
+			text-align:left;
+				}	
+  
+ 	  .bodyContent{
+      	color:#333333;
+	    font-family:Helvetica, Arial, sans-serif;
+	    font-size:14px;
+  	    line-height:125%;
+   				 }
+				 
+		p {
+		font-size:16px;
+		}		 
+	
+	/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */  
+	  @media only screen and (max-width: 480px){
+		/* ======== Header Styles ======== */
+		#templatePreheader{display:none !important;
+		}
+	
+		.headerContent{
+		font-size:20px !important;
+		line-height:125% !important;
+		}
+		
+	}
+	
+	@media only screen and (max-width: 480px){
+        .bodyContent{font-size:16px !important;}
+		.p {font-size:18px !important;}
+		/* Widens email width for small screens */
+		#product {width:100%;}
+		
+    }
+	
+	@media only screen and (max-width: 480px){
+        .emailButton{
+            max-width:600px !important;
+            width:100% !important;
+        }
+
+        .emailButton a{
+            display:block !important;
+            font-size:18px !important;
+        }
+		
+  }
+  
+  @media only screen and (max-width: 480px){
+        /* Constrain email width for small screens */
+            table[class="container"] {
+                width: 100% !important;
+         }
+        
+        /* Give content more room on mobile */
+            td[class="container-padding"] {
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+         }
+         
+		/* Fluid Image resize for mobile */
+        .emailImage{
+            height:auto !important;
+            width: 100% !important;
+        }
+		p {
+		font-size:18px;
+		}
+	}
+	
+			</style>
+		</head>
+        
+<body>
+
+<!-- 100% wrapper (grey background) -->
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+
+<tr>
+	<td style="background-color: #fcfcfc;" align="center" valign="top">
+    
+<!-- content -->
+<table class="container-padding bodyContent" style="width: 600px; border-color:#ededed" border="0" cellspacing="0" cellpadding="0" align="center" valign="top">
+
+<tr>
+	<td>
+    <!-- BEGIN PREHEADER // -->
+<table id="templatePreheader" style="border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #cccccc; width: 100%; background-color: #f4f4f4;" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="preheaderContent" style="padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px;" valign="top"><strong>Only 3 Visa Gift Cards Left!</strong><br />
+   <strong>Online Australia: 07 3219 0366 | Darra: 07 3217 0915</strong></td>
+<td class="preheaderContent" style="padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 0;" valign="top" width="180">Email not displaying correctly?<br /><span style="color: #333333; text-decoration: underline;">%%emailonlinelink%%</span></td>
+</tr>
+</table>
+
+<!-- // END PREHEADER -->
+	</td>
+</tr>
+
+<tr>
+	<td style="background-color: #642b6f; text-align: center; padding: 0px; font-size: 10px; line-height: 10px; font-family: 'Helvetica Neue', Helvetica, sans-serif; color: #333; border-bottom:0; border-top:0;"><a href="http://www.theelectricdiscounter.com.au/"><img class="emailImage" alt="The Electric Discounter" border="0" height="126" width="600" src="https://positivemail.blob.core.windows.net/acc1007/Rohin/Banner600x126.jpg" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+	</td>
+</tr>
+
+<tr>
+	<td class="bodyContent" style="padding: 5px; font-weight: bold; font-size: 14px; line-height: 20px; font-family: 'Helvetica Neue', Helvetica, sans-serif; color: #333; text-decoration: none; text-align: center; background-color: #ded4ad; border-bottom:0; border-top:0;"><a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Fridges"><span style="color: #333333;">Fridges</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Freezers"><span style="color: #333333;">Freezers</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Washing-Machines-And-Dryers"><span style="color: #333333;">Laundry</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Cooking-Appliances"><span style="color: #333333;">Cooking</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Microwave-Ovens"><span style="color: #333333;">Microwaves</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Air-Conditioners"><span style="color: #333333;">Air Conditioners</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Dishwashers"><span style="color: #333333;">Dishwashers</span></a><br /> <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Audio-And-Video"><span style="color: #333333;">Audio Visual</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Vacuum-Cleaners"><span style="color: #333333;">Vacuum Cleaners</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Small-Appliances"><span style="color: #333333;">Small Appliances</span></a> | <a style="color: #333333; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/Housewares"><span style="color: #333333;">Housewares</span></a>
+	</td>
+</tr>
+
+<tr><!-- Main Email Content HEADER -->
+	<td class="container-padding bodyContent" align="center" style="padding: 0px 0px 15px 0px; font-size: 14px; line-height: 20px; font-family: 'Helvetica Neue', Helvetica, sans-serif; color: #333333; text-align: center; background-color: #f2f2f0; border-bottom:0; border-top:0;">
+
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" style="background-color:#f2f2f0; border-color:#FFFCFC; padding-bottom:15px;">
+	<tr>
+		<td align="center">
+			<a href="https://www.theelectricdiscounter.com.au/loadimage/images/air-conditioner/air-conditioner/mitsubishi-heavy-industries/air-conditioner/air-conditioner.pdf">
+            <img alt="Bargain Alert Deals" border="0" src="https://positivemail.blob.core.windows.net/acc1007/Rohin/MHIBanner.jpg" width="600px" height="170px" /></a>
+		</td>
+	</tr>
+</TABLE>
+
+<TABLE BORDER="0" CELLPADDING="30" CELLSPACING="0" width="95%" style="background-color:#ffffff; border-color:#FFFCFC; font-family: 'Helvetica Neue', Helvetica, sans-serif;" align="center">
+<tr>
+	<td align="center">
+
+<h1><span style="color:#1C1C1C; line-height:125%;">Hello %%NAME%% </span></h1>
+<h2><span style="color:#1C1C1C; line-height:125%;">Just a quick email to let our Bargain Alert customers know that we only have 3x $200 Visa gift cards left that can me claimed on the 8.1kw </span><span style="color:#FF0000">SRK80ZRAW</span> model.</h2>
+
+		</td>
+	</tr>
+</TABLE><!-- Main Email Content HEADER -->
+
+<br />
+
+<!-- Product 1 -->
+<TABLE BORDER="0" CELLPADDING="30" CELLSPACING="0" width="95%" style="background-color:#ffffff; font-family: 'Helvetica Neue', Helvetica, sans-serif;" align="center" id="product">
+<tr>
+	<td align="center">
+    
+<p><a href="https://www.theelectricdiscounter.com.au/Air-Conditioner/SRK80ZRAW/Mitsubishi-Heavy-Industries-SRK80ZRAW-8000-Watts-Air-Conditioner"><img border="0" src="https://positivemail.blob.core.windows.net/acc1007/Rohin/mhipromo/srk80zraw300x300.jpg" /></a></p>
+<h2 style="font-weight: bold; line-height: 125%; text-decoration: underline;">Mitsubishi Heavy Industries 8000 Watts Air Conditioner SRK80ZRAW</h2>
+<p>Mitsubishi 8.0Kw Cooling/9.0Kw Heating Reverse Cycle Inverter Air Conditioner Features Energy Efficent R32 Refrigerant, Vector Control, Jet Engine Aerodynamics, 3D Auto, Innovative Self Cleaning, Allergen Clear, Timer Functions, Fuzzy Auto Mode, Luminous Remote Control, Auto Restart, Self Diagnostics, Super Quiet and Much More!.</p>
+<h1><span style="color: #ff0000;">Super Special <strong>$2499</strong></span></h1>
+<table class="emailButton" style="border-radius: 0px !important; background-color: #642b6f;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="emailButtonContent" style="padding-top: 20px; padding-right: 60px; padding-bottom: 20px; padding-left: 60px;" align="center" valign="middle"><a style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; text-decoration: none;" href="#" target="_blank"><span style="color: #fbf731;">ADD TO CART</span></a>
+</td>
+</tr>
+</table>
+
+    </td>
+   </tr>
+</table>
+<!-- End Product 1 -->
+
+
+	</td>
+</tr><!-- END Main Email Content --> 
+
+<!-- Start Footer -->
+<tr>
+<td class="container-padding footer bodyContent" style="padding: 10px; font-size: 14px; line-height: 20px; font-family: 'Helvetica Neue', Helvetica, sans-serif; color: #000000; text-align: center; background-color: #efd209; border-bottom:0; border-top:0;">
+
+<!-- Social Media Icons -->
+<hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
+<p><a style="color:#1C1C1C; text-decoration:none;" href="http://www.theelectricdiscounter.com.au/aboutus.asp" target="_blank">
+<span style="color: #1C1C1C; text-decoration: none; font-size:12px; font-weight:bold;">About Us</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+
+<a style="color:#1C1C1C; text-decoration:none;" href="http://www.theelectricdiscounter.com.au/terms.asp" target="_blank">
+<span style="color: #1C1C1C; text-decoration: none; font-size:12px; font-weight:bold;">Terms &amp; Conditions</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+
+<a style="color:#1C1C1C; text-decoration:none;" href="http://www.theelectricdiscounter.com.au/privacy.asp" target="_blank">
+<span style="color: #1C1C1C; text-decoration: none; font-size:12px; font-weight:bold;">Privacy Policy</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+
+<a style="color:#1C1C1C; text-decoration:none;" href="http://www.theelectricdiscounter.com.au/contactus.asp" target="_blank">
+<span style="color: #1C1C1C; text-decoration: none; font-size:12px; font-weight:bold;">Contact Us</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+
+<span style="color: #1C1C1C; text-decoration: none; font-size:12px; font-weight:bold;">%%unsublink%%</span></p>
+
+<hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
+<!-- Social Media Icons -->
+<p>
+<a href="https://www.facebook.com/pages/The-Electric-Discounter/190616057620164" target="_blank"><img border="0" height="32" src="https://positivemail.blob.core.windows.net/acc1007/Rohin/SocialMediaIcons/1468476648_fb.png" width="32" /></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<a href="https://plus.google.com/+TheelectricdiscounterAu" target="_blank"><img border="0" height="32" src="https://positivemail.blob.core.windows.net/acc1007/Rohin/SocialMediaIcons/1468476595_g.png" width="32" /></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<a href="https://twitter.com/Sales_Tedz" target="_blank"><img border="0" height="32" src="https://positivemail.blob.core.windows.net/acc1007/Rohin/SocialMediaIcons/1468476657_twitter.png" width="32" /></a>&nbsp;&nbsp;</p>
+<!-- End Social Media Icons -->
+
+<p style="font-size: 14px;"><strong>Online Australia:</strong> (07) 3219 0366 &nbsp; | &nbsp; <strong>Darra: </strong>(07) 3217 0915</p>
+
+<p style="font-size: 16px; color: #660099;"><b>Please add us to the safe senders list to avoid missing out on great deals!</b></p>
+<p style="font-size: 14px;">This email was sent by The Electric Discounter and addressed to %%Email%%.</p>
+
+</td>
+</tr>
+
+<tr>
+	<td class="container-padding" style="padding: 10px; font-size: 12px; line-height: 15px; font-family: 'Helvetica Neue', Helvetica, sans-serif; color: #ffffff; text-align: center; background-color: #000000;" bgcolor="#ffffff"><a style="color: #ffffff; text-decoration: none;" href="http://www.theelectricdiscounter.com.au/" target="_blank"><span style="color: #ffffff;">The Electric Discounter Online Australia, 2936 Logan Road, Underwood, QLD, 4119, Australia</span></a>
+	</td>
+</tr>
+</table><!-- END Footer -->
+
+		</td>
+	</tr>
+</table>
+</body>
+</html>
